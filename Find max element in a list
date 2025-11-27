@@ -1,0 +1,12 @@
+def max_in_list(lst):
+    if not lst:
+        return None  # or raise an error / return message
+    maximum = lst[0]
+    for num in lst[1:]:
+        if num > maximum:
+            maximum = num
+    return maximum
+
+# Example usage:
+my_list = [10, 25, 7, 30, 15]
+print("Maximum element:", max_in_list(my_list))
