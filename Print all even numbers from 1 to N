@@ -1,0 +1,8 @@
+def print_evens(n):
+    for i in range(2, n+1, 2):
+        print(i, end=" ")
+    print()
+
+# Example usage:
+n = int(input("Enter N: "))
+print_evens(n)
