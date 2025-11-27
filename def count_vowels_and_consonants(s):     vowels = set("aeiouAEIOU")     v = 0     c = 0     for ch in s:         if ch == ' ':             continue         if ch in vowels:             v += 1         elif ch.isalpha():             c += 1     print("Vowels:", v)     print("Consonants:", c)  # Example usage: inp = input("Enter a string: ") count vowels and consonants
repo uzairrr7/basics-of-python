@@ -1,0 +1,17 @@
+def count_vowels_and_consonants(s):
+    vowels = set("aeiouAEIOU")
+    v = 0
+    c = 0
+    for ch in s:
+        if ch == ' ':
+            continue
+        if ch in vowels:
+            v += 1
+        elif ch.isalpha():
+            c += 1
+    print("Vowels:", v)
+    print("Consonants:", c)
+
+# Example usage:
+inp = input("Enter a string: ")
+count_vowels_and_consonants(inp)
