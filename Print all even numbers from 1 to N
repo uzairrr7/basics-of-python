@@ -3,6 +3,6 @@ def print_evens(n):
         print(i, end=" ")
     print()
 
-# Example usage:
+
 n = int(input("Enter N: "))
 print_evens(n)
